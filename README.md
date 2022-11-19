@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# SpaceX Viewer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Task:
+
+Create a launches viewer for "SpaceX" using the existing public Rest API (https://github.com/r-spacex/SpaceX-API/blob/master/docs/README.md).
+Launches must be shown in a Pinterest-like grid (with any image of launch or youtube preview as a thumbnail) where the recent launches are always above the older ones.
+The grid must use the infinite scroll approach to load older launches.
+Launches can be filtered by any 2 criteria (you can choose) and 1 required filter is by rocket name.
+Total - 3 filters. Click on launch thumbnail must open a popup with launch details.
+Required Technologies: TypeScript, React, React Hooks, Emotion/Styled-Components/Stitches, Axios.
+Please, upload your solution to GitHub repository
 
 ## Available Scripts
 
@@ -28,19 +36,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
